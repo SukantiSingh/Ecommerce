@@ -1,0 +1,50 @@
+
+
+.main_contain {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  text-align: center;
+  background-color:   #fde4e4;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.main_contain .head {
+  background-color: #df2020;
+  color: white;
+  padding: 10px;
+  
+}
+
+.main_contain .head .box {
+  margin: 10px 0;
+}
+ input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  box-sizing: border-box;
+}
+
+.main_contain   .head p {
+  margin-top: 20px;
+  color: black
+}
+
+.main_contain    button {
+  border: none;
+  cursor: pointer;
+  background-color: #df2020;
+  color: azure;
+   padding: 10px 20px;
+  
+}
+
+
+
+@media only screen and (max-width: 600px) {
+  .main_contain {
+    max-width: 100%;
+  }
+}
